@@ -28,7 +28,6 @@ a {
   }
   a:hover {
     color: rgba(57, 209, 153, 0.81);
-    fill: rgba(57, 209, 153, 0.81);
   }
 
 .paw {
@@ -40,11 +39,15 @@ nav .st0 {
   fill: #39add1;
 }
 
+main .st2 {
+  fill: #111;
+}
+
 a:hover .st0{
   fill: rgba(57, 209, 153, 0.81);
 }
 
-.st1 {
+header .st1 {
   opacity: 0;
 }
 
@@ -95,9 +98,26 @@ main {
         margin-right: 0;
       }
 
-main img {
+main svg {
     width: 170px;
     height: 170px;
+}
+
+.dog-1 .st0 {
+  fill: rgba(255, 0, 0, 0.24);
+}
+
+.dog-2 .st0 {
+  fill: rgba(255, 152, 0, 0.54);
+}
+
+.dog-3 .st0 {
+  fill:  rgba(0, 255, 42, 0.3);
+}
+
+.dog-4 .st0,
+.dog-4 .st1  {
+  fill: rgba(82, 89, 95, 0.86);
 }
 
 footer {
@@ -108,7 +128,7 @@ footer {
 }
 
 @media (min-width: 425px){
-  .st1 {
+  header .st1 {
     opacity: 1;
   }
   .logo-text {
