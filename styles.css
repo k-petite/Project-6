@@ -27,12 +27,21 @@ a {
   font-weight: 700;
   }
   a:hover {
-    color: #111;
+    color: rgba(57, 209, 153, 0.81);
+    fill: rgba(57, 209, 153, 0.81);
   }
 
 .paw {
   width: 140px;
   height: 120px;
+}
+
+nav .st0 {
+  fill: #39add1;
+}
+
+a:hover .st0{
+  fill: rgba(57, 209, 153, 0.81);
 }
 
 .st1 {
@@ -54,7 +63,7 @@ header {
   header nav ul li:hover {
       transform:  scale(1.2);
     }
-  header nav ul li a img {
+  header nav ul li a svg {
     height: 13px;
   }
 
