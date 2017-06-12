@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: url('images/background.png') #edeff0;
+  background: url('svgs/background.svg') #edeff0;
 }
 
 #container {
@@ -30,6 +30,15 @@ a {
     color: #111;
   }
 
+.paw {
+  width: 140px;
+  height: 120px;
+}
+
+.st1 {
+  opacity: 0;
+}
+
 header {
   padding-top: 10px;
 }
@@ -40,8 +49,11 @@ header {
   header nav ul li {
     display: inline-block;
     margin-right: 20px;
+    transition: transform .5s;
   }
-
+  header nav ul li:hover {
+      transform:  scale(1.2);
+    }
   header nav ul li a img {
     height: 13px;
   }
@@ -74,9 +86,23 @@ main {
         margin-right: 0;
       }
 
+main img {
+    width: 170px;
+    height: 170px;
+}
+
 footer {
   width: 100%;
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+@media (min-width: 425px){
+  .st1 {
+    opacity: 1;
+  }
+  .logo-text {
+    display: none;
+  }
 }
