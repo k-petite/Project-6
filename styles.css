@@ -103,6 +103,18 @@ main svg {
     height: 170px;
 }
 
+/*.st0{
+  fill:#BA8058;
+}*/
+
+.st1{
+  fill:#EAAA7F;
+}
+
+.st2{
+  fill:#EAAA7F;
+}
+
 .dog-1 .st0 {
   fill: rgba(255, 0, 0, 0.24);
 }
@@ -116,6 +128,10 @@ main svg {
 }
 
 .dog-4 .st0,
+.dog-4 .st1  {
+  fill: rgba(82, 89, 95, 0.86);
+}
+
 .dog-4 .st1  {
   fill: rgba(82, 89, 95, 0.86);
 }
